@@ -24,7 +24,7 @@ export default function Home() {
         </a>
       </div>
       <h2
-        className="fw-light fs-1 ls-1 m-2"
+        className="fw-light fs-3 ls-1 m-2"
         style={{
           color: "white",
         }}
@@ -46,16 +46,16 @@ export default function Home() {
                 color: "grey",
               }}
             >
-              We have partnered with multiple agencies to make sure your next
-              home is the right one, we are all over Kenya and our dedicated
-              team is always working to provide a smooth experience, try us and
-              see results;
+              -We have partnered with Multiple Housing & Real Estate Agencies to make sure your next
+              Home is the right one, we are all over Kenya and our dedicated
+              Team is always working to provide a smooth experience, try us and
+              see results;-
             </h2>
           </div>
         </Col>
       </Row>
       <p
-        className=" fw-light font-monospace m-t-3"
+        className=" fw-light font-monospace m-t-2"
         style={{ color: "white", letterSpacing: "3px" }}
       >
         -YOUR PATA KEJA PARTNER-
