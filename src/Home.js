@@ -32,10 +32,10 @@ export default function Home() {
         We'll Find you the;
         <br />
         <span style={{ color: "orange", fontWeight: 100 }}>
-          HOME <span style={{ color: "white" }}>|</span> APARTMENT{" "}
+          HOME <span style={{ color: "white" }}>| </span> APARTMENT{" "}
           <span style={{ color: "white" }}>|</span> HOUSE
         </span>
-        <br /> You Just Need;
+        <br /> You Just Need.
       </h2>
       <Row className="justify-content-space-around p-5 text-center align-items-center">
         <Col sm>
@@ -46,10 +46,10 @@ export default function Home() {
                 color: "grey",
               }}
             >
-              -We have partnered with Multiple Housing & Real Estate Agencies to make sure your next
-              Home is the right one, we are all over Kenya and our dedicated
-              Team is always working to provide a smooth experience, try us and
-              see results;-
+              -We have partnered with Multiple Housing & Real Estate Agencies to
+              make sure your next Home is the right one, we are all over Kenya
+              and our dedicated Team is always working to provide a smooth
+              experience, try us and see results;-
             </h2>
           </div>
         </Col>
