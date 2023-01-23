@@ -15,21 +15,18 @@ export default function Home() {
         >
           HOME
         </a>
-
         <a
           href="about"
-          className="font-weight-light m-5 text-decoration-none"
+          className="font-weight-light m-3 text-decoration-none"
           style={{ color: "yellow" }}
         >
           ABOUT US
         </a>
       </div>
-      <h3
+      <h2
+        className="fw-light fs-1 ls-1 m-2"
         style={{
-          fontWeight: 100,
-          fontSize: 30,
           color: "white",
-          letterSpacing: "4px",
         }}
       >
         We'll Find you the;
@@ -39,7 +36,7 @@ export default function Home() {
           <span style={{ color: "white" }}>|</span> HOUSE
         </span>
         <br /> You Just Need;
-      </h3>
+      </h2>
       <Row className="justify-content-space-around p-5 text-center align-items-center">
         <Col sm>
           <div>
@@ -59,7 +56,7 @@ export default function Home() {
       </Row>
       <p
         className=" fw-light font-monospace m-t-3"
-        style={{ color: "white" }}
+        style={{ color: "white", letterSpacing: "3px" }}
       >
         -YOUR PATA KEJA PARTNER-
       </p>
@@ -77,7 +74,7 @@ export default function Home() {
           <h2 style={{ fontWeight: 100, color: "yellow", fontSize: 12 }}>
             {"Copyright © "}{" "}
             <a href="/" alt="" style={{ textDecoration: "none" }}>
-              Patakeja //{" "}
+              Patakeja{" "}
             </a>{" "}
             {new Date().getFullYear()}
             {"."}{" "}
