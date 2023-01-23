@@ -29,13 +29,13 @@ export default function Home() {
           color: "white",
         }}
       >
-        We'll Find you the;
+        <h6 className="fw-lighter fs-2">We'll Find you the;</h6>
         <br />
         <span style={{ color: "orange", fontWeight: 100 }}>
-          HOME <span style={{ color: "white" }}>| </span> APARTMENT{" "}
-          <span style={{ color: "white" }}>|</span> HOUSE
+          HOME <span style={{ color: "white" }}> &bull; </span> APARTMENT
+          <span style={{ color: "white" }}> &bull;</span> HOUSE
         </span>
-        <br /> You Just Need.
+        <br /><hr/> You Just Need.
       </h2>
       <Row className="justify-content-space-around p-5 text-center align-items-center">
         <Col sm>
@@ -55,13 +55,13 @@ export default function Home() {
         </Col>
       </Row>
       <p
-        className=" fw-light font-monospace m-t-2"
-        style={{ color: "white", letterSpacing: "3px" }}
+        className=" fw-light    "
+        style={{ color: "orange", letterSpacing: "3px" }}
       >
         -YOUR PATA KEJA PARTNER-
       </p>
       <Stack gap={3}>
-        <div className="p-5">
+        <div className=" ">
           <Button
             size="lg"
             variant="outline-primary"
@@ -71,7 +71,7 @@ export default function Home() {
           </Button>
         </div>
         <div>
-          <h2 style={{ fontWeight: 100, color: "yellow", fontSize: 12 }}>
+          <h2 style={{ fontWeight: 100, color: "yellow", fontSize: 13 }}>
             {"Copyright © "}{" "}
             <a href="/" alt="" style={{ textDecoration: "none" }}>
               Patakeja{" "}
