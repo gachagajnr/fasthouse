@@ -1,10 +1,4 @@
-import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Linkedin,
-  Pinterest,
-} from "react-bootstrap-icons";
+import { Facebook, Instagram, Twitter } from "react-bootstrap-icons";
 import Stack from "react-bootstrap/Stack";
 import { social } from "../constants/social";
 
@@ -22,10 +16,6 @@ function SocialLinks() {
       <a href="https" class="link-primary">
         <Twitter size={size} />
       </a>
-
-      
-
-       
     </Stack>
   );
 }
