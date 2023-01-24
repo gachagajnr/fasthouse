@@ -1,69 +1,23 @@
-import { useRef } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Popover from "react-bootstrap/Popover";
-import Form from "react-bootstrap/Form";
+import SocialLinks from './components/sociallinks'
+import { popover } from "./components/popover";
 
 export default function Home() {
-  const target = useRef(null);
-  const popover = (
-    <Popover id="popover-basic">
-      <Popover.Header as="h3">Patakeja</Popover.Header>
-      <Popover.Body>
-        <Form>
-          <Form.Text className="text-danger">
-            *We'll never share your information.
-          </Form.Text>
-          <Form.Group controlId="formBasicEmail">
-            <Form.Label>Name</Form.Label>
-            <Form.Control
-              type="text"
-              placeholder="Enter name"
-              style={{ color: "black" }}
-            />
-          </Form.Group>
-          <Form.Group controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
-          </Form.Group>
-          <Row>
-            <Col sm>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Label>Looking For</Form.Label>
-                <Form.Control type="text" placeholder="Looking for" />
-              </Form.Group>
-            </Col>
-            <Col sm>
-              <Form.Group controlId="formBasicEmail">
-                <Form.Label>City/Town</Form.Label>
-                <Form.Control type="text" placeholder="City/Town" />
-              </Form.Group>
-            </Col>
-          </Row>
-
-          <Form.Group className="mb-1" controlId="formBasicEmail">
-            <Form.Label>Price range</Form.Label>
-            <Form.Control type="number" placeholder="Price range" />
-          </Form.Group>
-
-          <Button
-            variant="outline-primary"
-            type="submit"
-            style={{ width: "100%" }}
-          >
-            Request Access
-          </Button>
-        </Form>
-      </Popover.Body>
-    </Popover>
-  );
   return (
     <Container className="vh-100 px-0 align-items-center">
       <div className="d-flex d-row justify-content-center align-items-center">
+        <a
+          href="/"
+          className="font-weight-light m-3 text-decoration-none"
+          style={{ color: "orange" }}
+        >
+          PATA~KEJA
+        </a>
         <a
           href="/"
           className="font-weight-light  text-decoration-none"
@@ -78,6 +32,8 @@ export default function Home() {
         >
           ABOUT US
         </a>
+        <div className="me-auto" />
+        <SocialLinks className="m-2 text-end" />
       </div>
       <h2
         className="fw-light fs-3 ls-1 m-2"
@@ -85,7 +41,7 @@ export default function Home() {
           color: "white",
         }}
       >
-        <h6 className="fw-lighter fs-2">We'll Find you the;</h6>
+        <h6 className="fw-lighter fs-2">We'll find you the;</h6>
         <br />
         <span style={{ color: "orange", fontWeight: 100 }}>
           HOME <span style={{ color: "white" }}> &bull; </span> APARTMENT
@@ -93,8 +49,8 @@ export default function Home() {
         </span>
         <br />
         <hr /> You Just Need.
-        <span ref={target}></span>
       </h2>
+
       <Row className="justify-content-space-around p-5 text-center align-items-center">
         <Col sm>
           <div>
