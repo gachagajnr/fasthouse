@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fasthouse/static/css/main.d1b9fe47.css",
+    "main.js": "/fasthouse/static/js/main.3e178538.js",
+    "static/js/787.4fa007d6.chunk.js": "/fasthouse/static/js/787.4fa007d6.chunk.js",
+    "index.html": "/fasthouse/index.html",
+    "main.d1b9fe47.css.map": "/fasthouse/static/css/main.d1b9fe47.css.map",
+    "main.3e178538.js.map": "/fasthouse/static/js/main.3e178538.js.map",
+    "787.4fa007d6.chunk.js.map": "/fasthouse/static/js/787.4fa007d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1b9fe47.css",
+    "static/js/main.3e178538.js"
+  ]
+}
